@@ -179,25 +179,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\NathanGeorge\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Reneg\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\NathanGeorge\\Main Documents\\Projects\\Modding\\Risk of Rain 2\\TeammateRevive\\TeammateRevive\\TeammateRevive.csproj",
+      "projectUniqueName": "D:\\Development\\TeammateRevive\\TeammateRevive\\TeammateRevive.csproj",
       "projectName": "TeammateRevive",
-      "projectPath": "C:\\NathanGeorge\\Main Documents\\Projects\\Modding\\Risk of Rain 2\\TeammateRevive\\TeammateRevive\\TeammateRevive.csproj",
-      "packagesPath": "C:\\Users\\NathanGeorge\\.nuget\\packages\\",
-      "outputPath": "C:\\NathanGeorge\\Main Documents\\Projects\\Modding\\Risk of Rain 2\\TeammateRevive\\TeammateRevive\\obj\\",
+      "projectPath": "D:\\Development\\TeammateRevive\\TeammateRevive\\TeammateRevive.csproj",
+      "packagesPath": "C:\\Users\\Reneg\\.nuget\\packages\\",
+      "outputPath": "D:\\Development\\TeammateRevive\\TeammateRevive\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\NathanGeorge\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Reneg\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

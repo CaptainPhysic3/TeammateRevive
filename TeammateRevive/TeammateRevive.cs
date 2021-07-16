@@ -223,6 +223,8 @@ namespace TeammateRevive
 
             NetworkServer.Spawn(player.deathMark);
             NetworkServer.Spawn(player.nearbyRadiusIndicator);
+
+            DebugLogger.diag1("DeathMarker Spawned In");
         }
 
 
@@ -242,10 +244,12 @@ namespace TeammateRevive
                     SpawnDeathVisuals(player);
                     
                     Logger.LogInfo(" ---------------- Player Died! ---------------- ");
+                    DebugLogger.diag1("Player Death" + player);
                     return;
                 }
             }
             Logger.LogError(" ---------------- Player Died but they were not alive to begin with! ---------------- ");
+            DebugLogger.diag3("Player Died But Not in alivePlayers Array");
         }
 
         public void RespawnPlayer(Player player)
@@ -261,6 +265,7 @@ namespace TeammateRevive
                 player.body = player.master.GetBody();
                 alivePlayers.Add(player);
                 deadPlayers.Remove(player);
+                DebugLogger.diag1("Player Connected" + player);
             }
         }
 
@@ -288,6 +293,7 @@ namespace TeammateRevive
                     deadPlayers.Add(player);
                     SpawnDeathVisuals(player);
                     Logger.LogInfo(" ---------------- Player Died (Not called from Event)! ---------------- ");
+                    DebugLogger.diag2("Player Died (Not called from Event)!");
                     continue;
                 }
 

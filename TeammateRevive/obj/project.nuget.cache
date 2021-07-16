@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "TS0GilmYrJ9Mp4vhAdONweusyIo+WdT8Fk6iEkynvrTYXni75HZrNkpmweLeAaFCjiBjE/FHRyGrenHRWgIYjQ==",
+  "dgSpecHash": "bfNlCGVt+2zoQ9FGOcjqSKeF2EwS1eip1NxCKQRtdH2HuPIr7xHxolO8LCU4hi4gAg7re5pK1gIoGiqKpmQqvA==",
   "success": true,
-  "projectFilePath": "C:\\NathanGeorge\\Main Documents\\Projects\\Modding\\Risk of Rain 2\\TeammateRevive\\TeammateRevive\\TeammateRevive.csproj",
+  "projectFilePath": "D:\\Development\\TeammateRevive\\TeammateRevive\\TeammateRevive.csproj",
   "expectedPackageFiles": [
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\Reneg\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Reneg\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

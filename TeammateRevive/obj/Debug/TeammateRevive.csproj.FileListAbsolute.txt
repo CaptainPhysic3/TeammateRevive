@@ -7,12 +7,12 @@ C:\NathanGeorge\Main Documents\Projects\Modding\Risk of Rain 2\TeammateRevive\Te
 C:\Users\NathanGeorge\AppData\Roaming\r2modmanPlus-local\RiskOfRain2\profiles\Testing\BepInEx\plugins\KosmosisDire-TeammateRevival\TeammateRevive.deps.json
 C:\Users\NathanGeorge\AppData\Roaming\r2modmanPlus-local\RiskOfRain2\profiles\Testing\BepInEx\plugins\KosmosisDire-TeammateRevival\TeammateRevive.dll
 C:\Users\NathanGeorge\AppData\Roaming\r2modmanPlus-local\RiskOfRain2\profiles\Testing\BepInEx\plugins\KosmosisDire-TeammateRevival\TeammateRevive.pdb
-D:\Development\TeammateRevive\TeammateRevive\obj\Debug\TeammateRevive.csproj.AssemblyReference.cache
-D:\Development\TeammateRevive\TeammateRevive\obj\Debug\TeammateRevive.AssemblyInfoInputs.cache
-D:\Development\TeammateRevive\TeammateRevive\obj\Debug\TeammateRevive.AssemblyInfo.cs
-D:\Development\TeammateRevive\TeammateRevive\obj\Debug\TeammateRevive.csproj.CoreCompileInputs.cache
-D:\Development\TeammateRevive\TeammateRevive\obj\Debug\TeammateRevive.dll
-D:\Development\TeammateRevive\TeammateRevive\obj\Debug\TeammateRevive.pdb
 D:\Development\TeammateRevive\Debugger PLugin\TeammateRevive.deps.json
 D:\Development\TeammateRevive\Debugger PLugin\TeammateRevive.dll
 D:\Development\TeammateRevive\Debugger PLugin\TeammateRevive.pdb
+D:\Development\TeammateRevives\TeammateRevive\obj\Debug\TeammateRevive.csproj.AssemblyReference.cache
+D:\Development\TeammateRevives\TeammateRevive\obj\Debug\TeammateRevive.AssemblyInfoInputs.cache
+D:\Development\TeammateRevives\TeammateRevive\obj\Debug\TeammateRevive.AssemblyInfo.cs
+D:\Development\TeammateRevives\TeammateRevive\obj\Debug\TeammateRevive.csproj.CoreCompileInputs.cache
+D:\Development\TeammateRevives\TeammateRevive\obj\Debug\TeammateRevive.dll
+D:\Development\TeammateRevives\TeammateRevive\obj\Debug\TeammateRevive.pdb

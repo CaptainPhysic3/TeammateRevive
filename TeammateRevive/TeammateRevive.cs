@@ -73,6 +73,8 @@ namespace TeammateRevive
             }
 
             Logger.LogInfo(" ------------------- Setup Teammate Revival -------------------");
+            DebugLogger.diagInit();
+            DebugLogger.diag1("Setup Teammate Revival");
         }
 
         void SetupHooks()
@@ -87,7 +89,7 @@ namespace TeammateRevive
 
         bool IsClient() 
         {
-            if (RoR2.RoR2Application.isInSinglePlayer || !NetworkServer.active || !playersSetup)
+            if (RoR2.RoR2Application.isInSinglePlayer || !NetworkServer.active)
             {
                 return true;
             }
@@ -150,9 +152,10 @@ namespace TeammateRevive
 
             if (IsClient()) return;
 
+            Logger.LogInfo(" ---------------- Passenger Exit Pod ---------------- ");
+
             if (!playersSetup)
                 SetupPlayers();
-
             playersSetup = true;
         }
 
@@ -162,6 +165,7 @@ namespace TeammateRevive
 
             if (IsClient()) return;
 
+            Logger.LogInfo(" ---------------- Game Over - reseting data ---------------- ");
             ResetSetup();
         }
 
@@ -170,6 +174,8 @@ namespace TeammateRevive
             orig(self, nextScene);
 
             if (IsClient()) return;
+
+            Logger.LogInfo(" ---------------- Advanced a stage - now resetting ---------------- ");
 
             ResetSetup();
         }
@@ -201,8 +207,9 @@ namespace TeammateRevive
             smallestMax = float.PositiveInfinity;
             threshold = 0;
             playersSetup = false;
-            List<Player> alivePlayers = new List<Player>();
-            List<Player> deadPlayers = new List<Player>();
+            alivePlayers = new List<Player>();
+            deadPlayers = new List<Player>();
+            Logger.LogInfo(" ---------------- Reset Data ---------------- ");
         }
 
         #endregion
@@ -224,7 +231,7 @@ namespace TeammateRevive
             NetworkServer.Spawn(player.deathMark);
             NetworkServer.Spawn(player.nearbyRadiusIndicator);
 
-            DebugLogger.diag1("DeathMarker Spawned In");
+            Logger.LogInfo(" ---------------- Skull spawned on Server and Client ---------------- ");
         }
 
 
@@ -244,12 +251,10 @@ namespace TeammateRevive
                     SpawnDeathVisuals(player);
                     
                     Logger.LogInfo(" ---------------- Player Died! ---------------- ");
-                    DebugLogger.diag1("Player Death" + player);
                     return;
                 }
             }
             Logger.LogError(" ---------------- Player Died but they were not alive to begin with! ---------------- ");
-            DebugLogger.diag3("Player Died But Not in alivePlayers Array");
         }
 
         public void RespawnPlayer(Player player)
@@ -265,8 +270,8 @@ namespace TeammateRevive
                 player.body = player.master.GetBody();
                 alivePlayers.Add(player);
                 deadPlayers.Remove(player);
-                DebugLogger.diag1("Player Connected" + player);
             }
+            Logger.LogInfo(" ---------------- Player Respawned ---------------- ");
         }
 
         float smallestMax = float.PositiveInfinity;
@@ -279,7 +284,7 @@ namespace TeammateRevive
                 //SpawnDeathVisuals(alivePlayers[0]);
             }
 
-            if (IsClient()) return;
+            if (IsClient() || !playersSetup) return;
 
             //find smallest max health out of all the players
             smallestMax = int.MaxValue;
@@ -287,13 +292,9 @@ namespace TeammateRevive
             { 
                 Player player = alivePlayers[i];
 
-                if(!player.master.GetBody() || player.master.IsDeadAndOutOfLivesServer() || !player.master.GetBody().healthComponent.alive) 
+                if (!player.master.GetBody() || player.master.IsDeadAndOutOfLivesServer() || !player.master.GetBody().healthComponent.alive)
                 {
-                    alivePlayers.Remove(player);
-                    deadPlayers.Add(player);
-                    SpawnDeathVisuals(player);
                     Logger.LogInfo(" ---------------- Player Died (Not called from Event)! ---------------- ");
-                    DebugLogger.diag2("Player Died (Not called from Event)!");
                     continue;
                 }
 

@@ -16,3 +16,9 @@ D:\Development\TeammateRevives\TeammateRevive\obj\Debug\TeammateRevive.AssemblyI
 D:\Development\TeammateRevives\TeammateRevive\obj\Debug\TeammateRevive.csproj.CoreCompileInputs.cache
 D:\Development\TeammateRevives\TeammateRevive\obj\Debug\TeammateRevive.dll
 D:\Development\TeammateRevives\TeammateRevive\obj\Debug\TeammateRevive.pdb
+D:\Development\TeammateRevive\TeammateRevive\obj\Debug\TeammateRevive.csproj.AssemblyReference.cache
+D:\Development\TeammateRevive\TeammateRevive\obj\Debug\TeammateRevive.AssemblyInfoInputs.cache
+D:\Development\TeammateRevive\TeammateRevive\obj\Debug\TeammateRevive.AssemblyInfo.cs
+D:\Development\TeammateRevive\TeammateRevive\obj\Debug\TeammateRevive.csproj.CoreCompileInputs.cache
+D:\Development\TeammateRevive\TeammateRevive\obj\Debug\TeammateRevive.dll
+D:\Development\TeammateRevive\TeammateRevive\obj\Debug\TeammateRevive.pdb

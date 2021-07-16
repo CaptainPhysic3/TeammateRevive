@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "z7Qp1/um+IKSRUOfJ6x7zxfxNr02Dy8ZKP8yE4YnbHAc12CCwbDEZA4Owfv7MuZKAHohibO+YQ0vNsgrb12yYQ==",
+  "dgSpecHash": "bfNlCGVt+2zoQ9FGOcjqSKeF2EwS1eip1NxCKQRtdH2HuPIr7xHxolO8LCU4hi4gAg7re5pK1gIoGiqKpmQqvA==",
   "success": true,
-  "projectFilePath": "D:\\Development\\TeammateRevives\\TeammateRevive\\TeammateRevive.csproj",
+  "projectFilePath": "D:\\Development\\TeammateRevive\\TeammateRevive\\TeammateRevive.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Reneg\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Reneg\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

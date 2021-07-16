@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Development\\TeammateRevives\\TeammateRevive\\TeammateRevive.csproj": {}
+    "D:\\Development\\TeammateRevive\\TeammateRevive\\TeammateRevive.csproj": {}
   },
   "projects": {
-    "D:\\Development\\TeammateRevives\\TeammateRevive\\TeammateRevive.csproj": {
+    "D:\\Development\\TeammateRevive\\TeammateRevive\\TeammateRevive.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Development\\TeammateRevives\\TeammateRevive\\TeammateRevive.csproj",
+        "projectUniqueName": "D:\\Development\\TeammateRevive\\TeammateRevive\\TeammateRevive.csproj",
         "projectName": "TeammateRevive",
-        "projectPath": "D:\\Development\\TeammateRevives\\TeammateRevive\\TeammateRevive.csproj",
+        "projectPath": "D:\\Development\\TeammateRevive\\TeammateRevive\\TeammateRevive.csproj",
         "packagesPath": "C:\\Users\\Reneg\\.nuget\\packages\\",
-        "outputPath": "D:\\Development\\TeammateRevives\\TeammateRevive\\obj\\",
+        "outputPath": "D:\\Development\\TeammateRevive\\TeammateRevive\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -5,7 +5,7 @@ public class DebugLogger
 {
     public static void diagInit()
     {
-        using (StreamWriter writer = new StreamWriter(System.Environment.GetEnvironmentVariable("USERPROFILE") + "\\Desktop\\log.txt" + DateTime.Now, true))
+        using (StreamWriter writer = new StreamWriter(System.Environment.GetEnvironmentVariable("USERPROFILE") + "\\Desktop\\log" + DateTime.Now + ".txt", true))
         {
             writer.WriteLine("" + DateTime.Now + '\n');
         }

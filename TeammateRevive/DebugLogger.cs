@@ -1,17 +1,19 @@
 ﻿using System;
 using System.IO;
 using System.Globalization;
+using UnityEngine;
 public class DebugLogger
 {
     public static void diagInit()
     {
-        using (StreamWriter writer = new StreamWriter(System.Environment.GetEnvironmentVariable("USERPROFILE") + "\\Desktop\\log" + DateTime.Now + ".txt", true))
+        
+        using (StreamWriter writer = new StreamWriter(System.Environment.GetEnvironmentVariable("USERPROFILE") + "\\Desktop\\TeammateRevivalLog.txt"))
         {
-            writer.WriteLine("" + DateTime.Now + '\n');
+            writer.WriteLine("Setup Teammate Revival" + DateTime.Now + '\n');
         }
 
     }
-    public static void diag1(string message)
+    public static void LogInfo(string message)
     {
         using (StreamWriter writer = new StreamWriter(System.Environment.GetEnvironmentVariable("USERPROFILE") + "\\Desktop\\log.txt", true))
         {
@@ -20,7 +22,7 @@ public class DebugLogger
 
     }
     //Yellow Errors Prefixed With *WARNING* in Log File 
-    public static void diag2(string message)
+    public static void LogWarning(string message)
     {
         using (StreamWriter writer = new StreamWriter(System.Environment.GetEnvironmentVariable("USERPROFILE") + "\\Desktop\\log.txt", true))
         {
@@ -28,7 +30,7 @@ public class DebugLogger
         }
     }
     //Red Errors Prefixed With *ERROR* in Log File
-    public static void diag3(string message)
+    public static void LogError(string message)
     {
         using (StreamWriter writer = new StreamWriter(System.Environment.GetEnvironmentVariable("USERPROFILE") + "\\Desktop\\log.txt", true))
         {
